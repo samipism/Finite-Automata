@@ -1,4 +1,4 @@
-This is the readme for writing the definition.txt, where we write Definition of the machine.
+This is the readme for writing the 'definition.txt', where we write Definition of the machine.
 
 1. The first line corresponds to accepted letters(without braces and commas.).
 For example: The language has letters: {a,b}.
@@ -21,7 +21,11 @@ We write: 0
 For example: The set of final states is: {q0,q1}
 We write: 01
 
+#HOW TO RUN PROGRAM:
+1. In this Folder, there is an executable file named Source. Just open the terminal and command line, and goto this folder, and type:
+./Source
+2. Then Enter the desired string a prompted. 
 
 *****WARNING********
-Please don't add extra lines or remove the existiong. 
+Please don't add extra lines or remove the existing in 'definition.txt'. 
 Write in the same format as described above.

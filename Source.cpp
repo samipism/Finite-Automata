@@ -90,9 +90,9 @@ public:
     {   vector<char>::iterator it;
         it = find(finalStates.begin(),finalStates.end(),state);
         if(it != finalStates.end())
-            cout<<"The input string is accepted";
+            cout<<"The input string is accepted."<<endl;
         else
-            cout<<"The input string is not accepted";
+            cout<<"The input string is not accepted."<<endl;
     }
 };
 //This function generates remaining string from the present string.
@@ -116,7 +116,7 @@ int main()
     string S1,remain;
     char state=M1.getInitialState();
     char check;
-    cout<<"Enter a string to check:"<<endl;
+    cout<<"Enter a string to check:";
     cin>>S1;
     remain=S1;
     check=checkLetter(remain);
